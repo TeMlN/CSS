@@ -1,0 +1,129 @@
+/*초기화*/
+body{
+    box-sizing: border-box;
+}
+
+#wrap{
+    max-width: 20px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+nav #logo{
+    background-color: black;
+    width: 70px;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+nav.logo{
+    background-color:  rgb(34, 32, 32);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    list-style-type: none;
+    list-style: none;
+}
+nav ul li {
+    align-items: center;
+    font-size: small;
+    margin-left: 50px;
+    
+}
+nav ul li a {
+    color: #8e8e94;
+}
+nav ul li a:hover {
+    color: white;
+}
+
+
+
+
+main div{
+    background-color: white;
+}
+
+.full-page{
+    height: 100vh;
+}
+#home{
+    display: flex;
+    justify-content: center;
+}
+#home h1{
+    padding-top: 10rem;
+    font-size: 5rem;
+    color: white;
+    align-items: center;
+}
+
+/*main------------------------------------------*/
+#main-header {
+    text-align: center;
+    background-color: rgb(20,20,20);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+#white{
+    color: white;
+}
+#main-content {
+    background-color: black;
+}
+#main-content h1{
+    padding-top: 3rem;
+    color: white;
+    text-align: center;   
+}
+#main-content img{
+    align-items: center;
+}
+#main-text{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#blue{
+    color: blue;
+}
+#main-content h2{
+    padding-top: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;   
+}
+#main-content h3{
+    padding-top: 1rem;
+    color :rgb(109, 99, 99);
+    text-align: center;
+    font-size: 20px;
+}
+#main-content h4{
+    padding-top: 0.7rem;
+    color :rgb(109, 99, 99);
+    text-align: center;
+    font-size: 20px;
+}
+
+#main-content a{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(81, 81, 209);
+}
+#main-content p{
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}

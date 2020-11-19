@@ -1,0 +1,161 @@
+/*초기화*/
+body{
+    box-sizing: border-box;
+}
+
+#wrap{
+    max-width: 20px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+nav #logo{
+    background-color: black;
+    width: 70px;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+nav.logo{
+    background-color:  rgb(34, 32, 32);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    list-style-type: none;
+    list-style: none;
+}
+nav ul li {
+    align-items: center;
+    font-size: small;
+    margin-left: 50px;
+    
+}
+nav ul li a {
+    color: #8e8e94;
+}
+nav ul li a:hover {
+    color: white;
+}
+
+main{
+    background-color: black;
+}
+
+.back-image{
+background-image : url(./images/image-back.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.full-page{
+    height: 100vh;
+}
+#home{
+    display: flex;
+    justify-content: center;
+}
+#home h1{
+    padding-top: 10rem;
+    font-size: 5rem;
+    color: white;
+    align-items: center;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    background-color: #004fff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    top:900px;
+    left:270px;
+    transform: translate(-50%, -50%);
+}
+
+button:focus{
+    outline: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/*main------------------------------------------*/
+#main-header {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    padding-bottom: 0.5rem;
+}
+#main-content {
+    background-color: black;
+    justify-content: center;
+}
+
+#main.content img{
+    align-items: center;
+}
+.main-title{
+    text-align: center;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+}
+#main-content p{
+    padding-top: 5rem;
+    color: rgb(231, 50, 50);
+    padding-left: 15rem;   
+    font-size: 30px;
+    font-weight: bolder;
+}
+#main-content h1{
+    padding-top: 1rem;
+    color: white;
+    text-align: left; 
+    padding-left: 15rem;
+    font-size: 60px;  
+    font-weight: bolder;
+}
+#main-content h2{
+    padding-top: 1rem;
+    color: white;
+    text-align: left; 
+    padding-left: 15rem;
+    font-size: 30px;  
+    font-weight: bolder;
+}
+#main-content h3{
+    padding-top: 1.5rem;
+    color: white;
+    text-align: left; 
+    padding-left: 15rem;
+    font-size: 20px;  
+}
+
+#main-content img{
+    align-items: center;
+}
+#main-text{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#blue{
+    color:white;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+
